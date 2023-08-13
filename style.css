@@ -1,0 +1,83 @@
+.control-buttons {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .control-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .control-button:hover {
+    background-color: #2980b9;
+  }
+
+  .button-trai::before {
+    content: "▶";
+  }
+
+  .button-phai::before {
+    content: "◀";
+  }
+
+  .button-tien::before {
+    content: "◀";
+    transform: rotate(90deg);
+  }
+
+  .button-lui::before {
+    content: "◀";
+    transform: rotate(-90deg);
+  }
+  .button-dung::before {
+    content: "O";
+  }
+  
+
+  .control-button:nth-child(1) {
+    top: 0;
+    left: 80px;
+  }
+
+  .control-button:nth-child(2) {
+    bottom: 0;
+    left: 80px;
+  }
+
+  .control-button:nth-child(3) {
+    top: 80px;
+    left: 160px;
+  }
+
+  .control-button:nth-child(4) {
+    top: 80px;
+    right: 160px;
+  }
+  .control-button:nth-child(5) {
+    top: 80px;
+    left: 80px;
+  }
+  h1{
+    text-align: center;
+  }
+  #Connect{
+    right:0ch;
+    position:absolute;
+    font-size: 30px;
+    width: 149px;height: 45px;
+    background-color:#29b97f;
+    border-radius: 10px;
+ }
